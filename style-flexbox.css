@@ -28,11 +28,11 @@ a {
 }
 
 .media-links-container {
-  overflow:auto;
+  display:flex;
+  flex-wrap:wrap;
 }
 
 .media-link {
-  float:left;
   width:25%;
   height:175px;
   display:table;
