@@ -1,0 +1,83 @@
+body {
+  margin:0;
+  font-family:sans-serif;
+}
+
+main {
+  width:75%;
+  margin:0 auto;
+}
+
+a {
+  color:#0645AD;
+  text-decoration:none;
+}
+
+.jumbotron {
+  width:90%;
+  margin:40px auto 0px;
+  font-size:22px;
+}
+
+.jumbotron span, .welcome {
+  font-weight:bold;
+}
+
+.welcome {
+  text-align:right;
+}
+
+.media-link {
+  float:left;
+  width:25%;
+  height:175px;
+  display:table;
+}
+
+.media-link:nth-child(4n + 1) {
+  clear:both;
+}
+.media-link a {
+  width:135px;
+  margin:0 auto;
+  display:inline-block;
+  overflow:auto;
+}
+
+.media-icon {
+  width:135px;
+  margin:0 auto;
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+}
+
+.media-icon img {
+  width:100%;
+  height:auto;
+}
+
+hr {
+  width:90%;
+}
+
+footer {
+  font-size:12px;
+  text-align:center;
+  margin-bottom:10px;
+}
+
+ul {
+  width:50%;
+  margin:0 auto;
+}
+
+li {
+  list-style:none;
+  display:inline-block;
+  margin-right:20px;
+}
+
+li:last-child {
+  margin-right:0px;
+}
